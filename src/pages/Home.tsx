@@ -21,7 +21,7 @@ const Grid = styled.div<{ layout: string }>`
       ? 'repeat(auto-fit, minmax(250px, 1fr))'
       : 'unset'};
   padding: 20px;
-  transition: all 0.3s ease-in-out; /* 👈 Yeh layout transition ko smooth banata hai */
+  transition: all 0.3s ease-in-out; 
 `;
 
 const Home = () => {

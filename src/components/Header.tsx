@@ -34,7 +34,7 @@ const Header: React.FC = () => {
   const { theme, setTheme } = useTheme();
 
   const handleThemeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setTheme(e.target.value as any); // 'theme1' | 'theme2' | 'theme3'
+    setTheme(e.target.value as any); 
   };
 
   return (

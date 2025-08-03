@@ -18,7 +18,7 @@ const Card = styled.div`
       ? '0 4px 12px rgba(255, 90, 95, 0.3)'
       : '0 2px 5px rgba(0, 0, 0, 0.1)'};
   color: ${({ theme }) => (theme.name === 'theme2' ? '#fff' : '#222')};
-  transition: all 0.4s ease; /* 👈 Yeh hai smooth animation for theme switching */
+  transition: all 0.4s ease; 
   max-width: 250px;
   flex: 1;
 `;
